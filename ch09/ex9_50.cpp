@@ -26,7 +26,7 @@ auto sum_for_float(std::vector<std::string> const& v)
     return sum;
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::vector<std::string> v = { "1", "2", "3", "4.5" };
     std::cout << sum_for_int(v) << std::endl;

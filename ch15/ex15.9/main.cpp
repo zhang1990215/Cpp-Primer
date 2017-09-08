@@ -18,7 +18,7 @@
 #include "bulk_quote.h"
 #include "limit_quote.h"
 
-int main()
+int main(int argc, char const *argv[])
 {
     Bulk_quote bulk_quote("bulk_quote_1", 10.10, 10, 0.5);
 

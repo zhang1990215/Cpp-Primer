@@ -4,10 +4,10 @@ using std::string;
 using std::cout;
 using std::endl;
 
-int main()
+int main(int argc, char const *argv[])
 {
     string str("a simple string");
-    
+
     // while
     decltype(str.size()) i = 0;
     while (i < str.size()) str[i++] = 'X';

@@ -32,7 +32,7 @@ int fact(int i)
     return i > 1 ? i * fact( i - 1 ) : 1;
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::cout << std::boolalpha << (120 == fact(5)) << std::endl;
     return 0;
@@ -65,7 +65,7 @@ void interactive_fact()
     }
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     interactive_fact();
     return 0;
@@ -82,7 +82,7 @@ int abs(int i)
     return i > 0 ? i : -i;
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::cout << abs(-5) << std::endl;
     return 0;
@@ -107,7 +107,7 @@ size_t count_add(int n)       // n is a parameter.
     return ctr;
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     for (size_t i = 0; i != 10; ++i)  // i is a local variable.
       cout << count_add(i) << endl;

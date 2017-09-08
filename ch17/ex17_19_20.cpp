@@ -35,7 +35,7 @@ using std::smatch;
 
 bool valid(const smatch& m);
 
-int main()
+int main(int argc, char const *argv[])
 {
 	string phone = "(\\()?(\\d{ 3 })(\\))?([-. ])?(\\d{ 3 })([-. ]?)(\\d{ 4 })";
 	regex r(phone);

@@ -7,7 +7,7 @@ using std::string;
 using std::cout;
 using std::endl;
 
-int main()
+int main(int argc, char const *argv[])
 {
     string str("a simple string");
     for (auto &c : str) c = 'X';

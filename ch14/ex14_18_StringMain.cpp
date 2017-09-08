@@ -21,7 +21,7 @@ String baz()
     return ret;
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     char text[] = "world";
 

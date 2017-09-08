@@ -27,7 +27,7 @@
 #include <vector>
 #include <algorithm>
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::vector<std::string> exclude = { "aa", "bb", "cc", "dd", "ee", "ff" };
     for (std::string word; std::cout << "Enter plz:\n", std::cin >> word; )

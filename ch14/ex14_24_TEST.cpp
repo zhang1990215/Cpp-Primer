@@ -25,7 +25,7 @@
 #include "ex14_24.h"
 #include <iostream>
 
-int main()
+int main(int argc, char const *argv[])
 {
 
     Date lhs(9999999), rhs(1);

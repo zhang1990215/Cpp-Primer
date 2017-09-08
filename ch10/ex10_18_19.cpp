@@ -54,7 +54,7 @@ void biggies_stable_partition(std::vector<std::string> &vs, std::size_t sz)
 }
 
 
-int main()
+int main(int argc, char const *argv[])
 {
     // ex10.18
     std::vector<std::string> v{

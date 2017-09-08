@@ -35,7 +35,7 @@
 #include "limit_quote.h"
 
 double print_total (std::ostream& os, const Quote& item, size_t n);
-int main()
+int main(int argc, char const *argv[])
 {
     return 0;
 }

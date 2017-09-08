@@ -8,7 +8,7 @@ using std::cin; using std::cout; using std::endl;
 #include <string>
 using std::string;
 
-int main()
+int main(int argc, char const *argv[])
 {
     string curr, prev;
     bool no_twice = true;

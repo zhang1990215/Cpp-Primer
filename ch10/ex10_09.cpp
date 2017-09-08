@@ -34,7 +34,7 @@ auto eliminate_duplicates(std::vector<std::string> &vs) -> std::vector<std::stri
     return vs;
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::vector<std::string> vs{ "a", "v", "a", "s", "v", "a", "a" };
     println(vs);

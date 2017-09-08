@@ -1,6 +1,6 @@
 #include "ex14_05.h"
 
-int main()
+int main(int argc, char const *argv[])
 {
     Book book1(123, "CP5", "Lippman", "2012");
     Book book2(123, "CP5", "Lippman", "2012");

@@ -34,7 +34,7 @@ auto fcn3(It beg, It end) -> decltype(*beg + 0)
     return *beg;  // return a copy of an element from the range
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::vector<Bar> v;
     v.push_back(Bar());

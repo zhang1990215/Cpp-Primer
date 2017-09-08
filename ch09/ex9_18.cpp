@@ -13,7 +13,7 @@
 
 using std::string; using std::deque; using std::cout; using std::cin; using std::endl;
 
-int main()
+int main(int argc, char const *argv[])
 {
     deque<string> input;
     for (string str; cin >> str; input.push_back(str));

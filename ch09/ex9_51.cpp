@@ -81,7 +81,7 @@ public:
         cout << "day:" << day << " " << "month: " << month << " " << "year: " << year;
     }
 };
-int main()
+int main(int argc, char const *argv[])
 {
     My_date d("Jan 1 1900");
     d.print();

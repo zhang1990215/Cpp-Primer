@@ -3,7 +3,7 @@
 
 using std::cout; using std::cin; using std::endl; using std::string;
 
-int main()
+int main(int argc, char const *argv[])
 {
     string rsp;
     do {

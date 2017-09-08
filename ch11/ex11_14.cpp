@@ -55,7 +55,7 @@ private:
     Data _data;
 };
 
-int main()
+int main(int argc, char const *argv[])
 {
     Families families;
     auto msg = "Please enter last name, first name and birthday:\n";

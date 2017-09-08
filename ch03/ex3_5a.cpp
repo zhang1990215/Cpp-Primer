@@ -8,7 +8,7 @@ using std::cin;
 using std::cout;
 using std::endl;
 
-int main()
+int main(int argc, char const *argv[])
 {
     string concatenated;
     for (string buffer; cin >> buffer; concatenated += buffer);

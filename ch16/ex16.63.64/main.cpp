@@ -41,7 +41,7 @@ std::size_t count (std::vector<const char*> const& vec, const char* value)
         if(0 == strcmp(value, elem)) ++count;
     return count;
 }
-int main()
+int main(int argc, char const *argv[])
 {
     // for ex16.63
     std::vector<double> vd = { 1.1, 1.1, 2.3, 4 };

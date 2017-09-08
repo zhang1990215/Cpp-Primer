@@ -2,7 +2,7 @@
 
 > Review the documentation for your compiler and determine what file naming convention it uses. Compile and run the main program from page 2.
 
- * [GCC and File Extensions](http://labor-liber.org/en/gnu-linux/development/extensions) 
+ * [GCC and File Extensions](http://labor-liber.org/en/gnu-linux/development/extensions)
  * [File Types Created for Visual C++ Projects](https://msdn.microsoft.com/en-us/library/3awe4781.aspx)
 
 ## Exercise 1.2
@@ -25,7 +25,7 @@
 ```cpp
 #include <iostream>
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::cout << "Hello, World" << std::endl;
     return 0;
@@ -38,7 +38,7 @@ int main()
 ```cpp
 #include <iostream>
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::cout << "Enter two numbers:" << std::endl;
     int v1 = 0, v2 = 0;
@@ -56,7 +56,7 @@ int main()
 ```cpp
 #include <iostream>
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::cout << "Enter two numbers:" << std::endl;
     int v1 = 0, v2 = 0;
@@ -96,7 +96,7 @@ Example:
 * ''cannot nest'' is considered source code,
 * as is the rest of the program
 */
-int main()
+int main(int argc, char const *argv[])
 {
     return 0;
 }
@@ -156,7 +156,7 @@ Ex1.9:
 ```cpp
 #include <iostream>
 
-int main()
+int main(int argc, char const *argv[])
 {
     int sum = 0;
     for (int i = 50; i <= 100; ++i) sum += i;
@@ -170,7 +170,7 @@ Ex1.10:
 ```cpp
 #include <iostream>
 
-int main()
+int main(int argc, char const *argv[])
 {
     for (int i = 10; i >= 0; --i)
         std::cout << i << std::endl;
@@ -182,7 +182,7 @@ Ex1.11:
 ```cpp
 #include <iostream>
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::cout << "please input two integers:\n";
     int small = 0, big = 0;
@@ -219,7 +219,7 @@ Nothing to present here.
 
 ```cpp
 #include <iostream>
-int main()
+int main(int argc, char const *argv[])
 {
     int sum = 0;
     for (int val; std::cin >> val; sum += val);

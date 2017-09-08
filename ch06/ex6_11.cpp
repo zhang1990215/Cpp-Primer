@@ -5,7 +5,7 @@ void reset(int &i)
     i = 0;
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     int i = 42;
     reset(i);

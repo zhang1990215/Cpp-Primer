@@ -1,7 +1,7 @@
 //
-//Revise the loop that printed the first paragraph in text 
-//to instead change the elements in text that correspond 
-//to the first paragraph to all uppercase. 
+//Revise the loop that printed the first paragraph in text
+//to instead change the elements in text that correspond
+//to the first paragraph to all uppercase.
 //After you’ve updated text, print its contents.
 //
 
@@ -12,11 +12,11 @@
 
 using std::vector; using std::string; using std::cout; using std::cin; using std::isalpha;
 
-int main()
+int main(int argc, char const *argv[])
 {
     vector<string> text;
     for (string line; getline(cin, line); text.push_back(line));
-    
+
     for (auto& word : text)
     {
         for (auto& ch : word)

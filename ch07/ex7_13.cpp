@@ -7,7 +7,7 @@
 
 #include "ex7_12.h"
 
-int main()
+int main(int argc, char const *argv[])
 {
     Sales_data total(std::cin);
     if (!total.isbn().empty())

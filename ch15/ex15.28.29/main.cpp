@@ -41,7 +41,7 @@
 #include "disc_quote.h"
 
 
-int main()
+int main(int argc, char const *argv[])
 {
     /**
      * @brief ex15.28   outcome == 9090

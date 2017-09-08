@@ -1,6 +1,6 @@
 #include "ex14_22.h"
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::string strCp5("C++ Primer 5th");
     Sales_data cp5;

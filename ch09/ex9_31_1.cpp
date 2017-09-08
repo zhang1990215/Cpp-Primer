@@ -28,7 +28,7 @@ auto remove_evens_and_double_odds(list<int>& data)
             cur = data.erase(cur);
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     list<int> data { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
     remove_evens_and_double_odds(data);

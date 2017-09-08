@@ -21,7 +21,7 @@ void print(Sequence const& seq)
     cout << endl;
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     // (a)
     vector<int> vec;

@@ -3,7 +3,7 @@
 
 using std::cout; using std::cin; using std::endl; using std::string; using std::pair;
 
-int main()
+int main(int argc, char const *argv[])
 { 
     pair<string, int> max_duplicated;
     int count = 0;

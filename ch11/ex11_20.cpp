@@ -15,7 +15,7 @@ using std::map;
 using std::cin;
 using std::cout;
 
-int main()
+int main(int argc, char const *argv[])
 {
     map<string, size_t> counts;
     for(string word; cin >> word;)

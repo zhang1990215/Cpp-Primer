@@ -35,7 +35,7 @@ std::size_t bigerThan6(vector<string> const& v)
 }
 
 
-int main()
+int main(int argc, char const *argv[])
 {
     // ex10.20
     vector<string> v{

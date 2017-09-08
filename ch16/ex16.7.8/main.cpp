@@ -29,7 +29,7 @@ constexpr unsigned getSize(const T(&)[size])
     return size;
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::string s[] = { "sss" };
     std::cout << getSize(s) << std::endl;

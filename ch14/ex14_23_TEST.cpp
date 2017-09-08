@@ -2,7 +2,7 @@
 #include <iostream>
 #include <vector>
 
-int main()
+int main(int argc, char const *argv[])
 {
     StrVec vec;
     vec.reserve(6);

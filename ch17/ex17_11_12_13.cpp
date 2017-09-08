@@ -76,7 +76,7 @@ std::size_t grade(Quiz<M> const& corAns, Quiz<M> const& stuAns)
 }
 
 
-int main()
+int main(int argc, char const *argv[])
 {
     //Ex17_11
     std::string s = "1010101";

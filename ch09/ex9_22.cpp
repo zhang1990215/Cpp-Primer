@@ -9,7 +9,7 @@ void double_and_insert(std::vector<int>& v, int some_val)
             ++(curr = v.insert(curr, 2 * some_val));
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::vector<int> v{ 1, 9, 1, 9, 9, 9, 1, 1 };
     double_and_insert(v, 1);

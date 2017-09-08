@@ -8,7 +8,7 @@
 #include "ex7_41.h"
 using std::cout; using std::endl;
 
-int main()
+int main(int argc, char const *argv[])
 {
     cout << "1. default way: " << endl;
     cout << "----------------" << endl;

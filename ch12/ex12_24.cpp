@@ -11,7 +11,7 @@
 
 #include <iostream>
 
-int main()
+int main(int argc, char const *argv[])
 {
     // need to tell the size.
     std::cout << "How long do you want the string? ";

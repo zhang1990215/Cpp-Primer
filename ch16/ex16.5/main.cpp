@@ -23,7 +23,7 @@ void print(Arr const& arr)
         std::cout << elem << std::endl;
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::string s[] = { "ssss", "aaa", "ssssss" };
     char c[] = { 'a', 'b', 'c', 'd' };

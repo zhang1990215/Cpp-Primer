@@ -32,7 +32,7 @@
 #include "textquery.h"
 #include "query.h"
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::ifstream file("test.txt");
 

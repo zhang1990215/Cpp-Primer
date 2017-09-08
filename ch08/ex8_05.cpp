@@ -25,7 +25,7 @@ void ReadFileToVec(const string& fileName, vector<string>& vec)
     }
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     vector<string> vec;
     ReadFileToVec("../data/book.txt", vec);

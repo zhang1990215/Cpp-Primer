@@ -8,7 +8,7 @@
 #include <iostream>
 #include <memory>
 
-int main()
+int main(int argc, char const *argv[])
 {
     {
         auto sp = std::make_shared<int>();

@@ -24,7 +24,7 @@
 #include <string>
 #include <typeinfo>
 
-int main()
+int main(int argc, char const *argv[])
 {
     // ex11.26
     std::map<int, std::string> m = { { 1,"ss" },{ 2,"sz" } };

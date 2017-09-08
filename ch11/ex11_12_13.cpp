@@ -16,7 +16,7 @@
 #include <string>
 #include <iostream>
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::vector<std::pair<std::string, int>> vec;
     std::string str;

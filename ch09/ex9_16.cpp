@@ -15,7 +15,7 @@
 #include <vector>
 #include <list>
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::list<int>      li{ 1, 2, 3, 4, 5 };
     std::vector<int>    vec2{ 1, 2, 3, 4, 5 };

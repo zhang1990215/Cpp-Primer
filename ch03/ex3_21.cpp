@@ -29,7 +29,7 @@ void check_and_print(const vector<string>& vec)
     cout << "]\n" << endl;
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     vector<int> v1;
     vector<int> v2(10);

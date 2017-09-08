@@ -1,7 +1,7 @@
 #include <iostream>
 using std::cout; using std::endl;
 
-int main()
+int main(int argc, char const *argv[])
 {
     const int size = 10;
     int arr[size];

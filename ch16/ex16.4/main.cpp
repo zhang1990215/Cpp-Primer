@@ -30,7 +30,7 @@ namespace ch16
     }
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::vector<int> v = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
     auto is_in_vector = v.cend() != ch16::find(v.cbegin(), v.cend(), 5);

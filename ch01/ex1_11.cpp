@@ -16,7 +16,7 @@ void print_range(int lo, int hi)
         cout << i << " ";
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     int low = 0, high = 0;
     cout << "please input two integers:\n";

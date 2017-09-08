@@ -13,7 +13,7 @@
 
 using std::vector; using std::list; using std::cout; using std::endl; using std::end;
 
-int main()
+int main(int argc, char const *argv[])
 {
     int ia[] = { 0, 1, 1, 2, 3, 5, 8, 13, 21, 55, 89 };
 

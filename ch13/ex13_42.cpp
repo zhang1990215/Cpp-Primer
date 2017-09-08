@@ -12,7 +12,7 @@ void runQueries(std::ifstream &infile)
     }
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::ifstream file("../data/storyDataFile.txt");
     runQueries(file);

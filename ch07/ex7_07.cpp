@@ -7,7 +7,7 @@
 
 #include "ex7_06.h"
 
-int main()
+int main(int argc, char const *argv[])
 {
     Sales_data total;
     if (read(std::cin, total))

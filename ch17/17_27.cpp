@@ -14,7 +14,7 @@ regex r(pattern);
 string s;
 
 
-int main()
+int main(int argc, char const *argv[])
 {
     while(getline(cin,s))
     {

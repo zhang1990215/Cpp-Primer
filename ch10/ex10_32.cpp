@@ -16,7 +16,7 @@
 #include <numeric>
 #include "../include/Sales_item.h"
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::istream_iterator<Sales_item> in_iter(std::cin), in_eof;
     std::vector<Sales_item> vec;

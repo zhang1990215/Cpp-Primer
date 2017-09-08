@@ -23,7 +23,7 @@ Employee::Employee(const string &name) {
     name_ = name;
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
 	
 	return 0;

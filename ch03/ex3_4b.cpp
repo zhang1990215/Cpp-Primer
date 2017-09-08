@@ -8,7 +8,7 @@ using std::cin;
 using std::cout;
 using std::endl;
 
-int main()
+int main(int argc, char const *argv[])
 {
     for (string str1, str2; cin >> str1 >> str2;/* */)
     {

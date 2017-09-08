@@ -37,7 +37,7 @@
 
 
 
-int main()
+int main(int argc, char const *argv[])
 {
 	/*
 	error C2259 : 'Disc_quote' : cannot instantiate abstract class

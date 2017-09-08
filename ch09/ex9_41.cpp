@@ -15,7 +15,7 @@ using std::cout;
 using std::endl; 
 using std::string;
 
-int main()
+int main(int argc, char const *argv[])
 {
     vector<char> v{ 'p', 'e', 'z', 'y' };
     string str(v.cbegin(), v.cend());

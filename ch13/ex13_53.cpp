@@ -37,7 +37,7 @@ HasPtr::~HasPtr()
     delete ps;
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     return 0;
 }

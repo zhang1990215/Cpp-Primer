@@ -210,7 +210,7 @@ struct X {
 ```cpp
 Sales_data first_item(cin);   // use Sales_data(std::istream &is) ; its value are up to your input.
 
-int main() {
+int main(int argc, char const *argv[]) {
   Sales_data next;  // use Sales_data(std::string s = ""); bookNo = "", cnt = 0, revenue = 0.0
   Sales_data last("9-999-99999-9"); // use Sales_data(std::string s = ""); bookNo = "9-999-99999-9", cnt = 0, revenue = 0.0
 }
@@ -382,7 +382,7 @@ struct Data {
     std::string s;
 };
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::cout << std::boolalpha;
     std::cout << std::is_literal_type<Data>::value << std::endl;

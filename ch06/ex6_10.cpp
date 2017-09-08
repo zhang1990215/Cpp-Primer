@@ -17,7 +17,7 @@ void swap(int* lhs, int* rhs)
     *rhs = tmp;
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     for (int lft, rht; std::cout << "Please Enter:\n", std::cin >> lft >> rht; )
     {

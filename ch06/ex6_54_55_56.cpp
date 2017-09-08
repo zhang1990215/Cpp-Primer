@@ -37,7 +37,7 @@ inline int NumDiv(const int n1, const int n2)  { return n1 / n2; }
 
 vector<fp*> v{ NumAdd, NumSub, NumMul, NumDiv };
 
-int main()
+int main(int argc, char const *argv[])
 {
     //
     // @brief Exercise 6.56

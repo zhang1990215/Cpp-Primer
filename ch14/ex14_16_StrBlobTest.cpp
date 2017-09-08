@@ -1,7 +1,7 @@
 #include "ex14_16_StrBlob.h"
 #include <iostream>
 
-int main()
+int main(int argc, char const *argv[])
 {
     StrBlob sb{ "Hello", "World", "Pezy" };
 

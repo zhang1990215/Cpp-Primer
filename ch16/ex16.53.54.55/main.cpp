@@ -37,7 +37,7 @@ std::ostream& print(std::ostream& os, Printable const& printable, Args const&...
     return print(os << printable << ", ", rest...);
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     print(std::cout, 1) << std::endl;
     print(std::cout, 1, 2) << std::endl;

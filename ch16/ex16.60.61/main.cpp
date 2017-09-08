@@ -37,7 +37,7 @@ struct Foo
     int bar;
 };
 
-int main()
+int main(int argc, char const *argv[])
 {
     auto num = ch16::make_shared<int>(42);
     std::cout << *num << std::endl;

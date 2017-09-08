@@ -88,7 +88,7 @@ std::vector<matches_struct>
 findBook_struct(const std::vector<std::vector<Sales_data> > &files,
                 const std::string &book);
 
-int main()
+int main(int argc, char const *argv[])
 {
     return 0;
 }

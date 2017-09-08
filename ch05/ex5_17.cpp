@@ -12,7 +12,7 @@ bool is_prefix(vector<int> const& lhs, vector<int> const& rhs)
     return true;
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     vector<int> l{ 0, 1, 1, 2 };
     vector<int> r{ 0, 1, 1, 2, 3, 5, 8 };

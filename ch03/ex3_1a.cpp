@@ -6,7 +6,7 @@ using std::cin;
 using std::cout;
 using std::endl;
 
-int main()
+int main(int argc, char const *argv[])
 {
     int sum = 0;
     for (int val = 1; val <= 10; ++val) sum += val;

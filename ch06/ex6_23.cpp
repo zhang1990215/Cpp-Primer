@@ -33,7 +33,7 @@ void print(int (&arr)[2])
         cout << i << endl;
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     int i = 0, j[2] = { 0, 1 };
     char ch[5] = "pezy";

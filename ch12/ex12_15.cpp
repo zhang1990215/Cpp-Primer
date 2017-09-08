@@ -40,7 +40,7 @@ void f(destination &d)
     std::cout << "connecting now(" << p.use_count() << ")" << std::endl;
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     destination dest("202.118.176.67", 3316);
     f(dest);

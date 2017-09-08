@@ -20,7 +20,7 @@ void process(std::shared_ptr<int> ptr)
     std::cout << "inside the process function:" << ptr.use_count() << "\n";
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::shared_ptr<int> p(new int(42));
     /**

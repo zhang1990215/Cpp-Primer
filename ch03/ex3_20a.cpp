@@ -3,7 +3,7 @@
 
 using std::vector; using std::cout; using std::endl; using std::cin;
 
-int main()
+int main(int argc, char const *argv[])
 {
     vector<int> ivec;
     for (int i; cin >> i; ivec.push_back(i));
@@ -23,6 +23,6 @@ int main()
     for (int i = 0; i != ivec.size() - 1; ++i)
         cout << ivec[i] + ivec[i + 1] << " ";
     cout << endl;
-    
+
     return 0;
 }

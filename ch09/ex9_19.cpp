@@ -14,7 +14,7 @@
 
 using std::string; using std::list; using std::cout; using std::cin; using std::endl;
 
-int main()
+int main(int argc, char const *argv[])
 {
     list<string> input;
     for (string str; cin >> str; input.push_back(str));

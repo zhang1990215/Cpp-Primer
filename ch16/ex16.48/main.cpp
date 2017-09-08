@@ -66,7 +66,7 @@ std::string debug_rep(const char *p)
     return debug_rep(std::string(p));
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
 
 

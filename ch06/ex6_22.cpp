@@ -13,7 +13,7 @@ void swap(int*& lft, int*& rht)
     rht = tmp;
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     int i = 42, j = 99;
     auto lft = &i;

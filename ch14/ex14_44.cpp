@@ -30,7 +30,7 @@ auto binops = std::map<std::string, std::function<int(int, int)>>
 };
 
 
-int main()
+int main(int argc, char const *argv[])
 {
     while ( std::cout << "Pls enter as: num operator num :\n", true )
     {

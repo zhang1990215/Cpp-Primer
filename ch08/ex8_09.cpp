@@ -20,7 +20,7 @@ istream& func(istream &is)
     return is;
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::istringstream iss("hello");
     func(iss);

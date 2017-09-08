@@ -14,7 +14,7 @@ private:
     std::istream &is;
 };
 
-int main()
+int main(int argc, char const *argv[])
 {
     GetInput getInput;
     std::cout << getInput() << std::endl;

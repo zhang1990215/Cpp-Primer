@@ -1,7 +1,7 @@
 #include <iostream>
 #include "ex2_42.h"
 
-int main()
+int main(int argc, char const *argv[])
 {
     Sales_data book1, book2;
     double price1, price2;

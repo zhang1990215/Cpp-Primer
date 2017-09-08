@@ -84,7 +84,7 @@ void g(T&& val)
     std::vector<T> v;
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::allocator a;
     a.construct

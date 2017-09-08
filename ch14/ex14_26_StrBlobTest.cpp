@@ -1,7 +1,7 @@
 #include "ex14_26_StrBlob.h"
 #include <iostream>
 
-int main()
+int main(int argc, char const *argv[])
 {
     StrBlob sb1{ "a", "b", "c" };
     StrBlob sb2 = sb1;

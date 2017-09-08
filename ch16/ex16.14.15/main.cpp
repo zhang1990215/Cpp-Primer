@@ -21,7 +21,7 @@
 #include "Screen.h"
 #include <iostream>
 
-int main()
+int main(int argc, char const *argv[])
 {
     Screen<5, 5> scr('c');
     Screen<5, 5> scr2;

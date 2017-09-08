@@ -1,6 +1,6 @@
 #include "ex14_13.h"
 
-int main()
+int main(int argc, char const *argv[])
 {
   Sales_data s1("book1", 150, 10);
   Sales_data s2("book1", 200, 20);

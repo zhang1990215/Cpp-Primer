@@ -41,7 +41,7 @@ std::string debug_rep(const char* str);
 template<>
 std::string debug_rep(      char *str);
 
-int main()
+int main(int argc, char const *argv[])
 {
     char p[] = "alan";
     std::cout << debug_rep(p) << "\n";

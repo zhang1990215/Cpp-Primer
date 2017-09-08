@@ -32,7 +32,7 @@ Explain whether this rewrite improves or diminishes the readability of this code
 
 ```cpp
 #include <iostream>
-int main()
+int main(int argc, char const *argv[])
 {
     int sum = 0, val = 1;
     while (val <= 10)

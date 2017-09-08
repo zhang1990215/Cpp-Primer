@@ -16,7 +16,7 @@ auto less(Sales_data const& lhs, Sales_data const& rhs)
     return lhs.isbn() < rhs.isbn();
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     using Less = bool (*)(Sales_data const&, Sales_data const&);
     std::multiset<Sales_data, Less> bookstore(less);

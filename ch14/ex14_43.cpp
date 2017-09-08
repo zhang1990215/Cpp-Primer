@@ -16,7 +16,7 @@
 #include <functional>
 #include <algorithm>
 
-int main()
+int main(int argc, char const *argv[])
 {
     auto data = { 2, 3, 4, 5 };
     int input;

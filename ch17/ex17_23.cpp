@@ -24,7 +24,7 @@ using std::smatch;
 
 bool valid(const smatch& m);
 
-int main()
+int main(int argc, char const *argv[])
 {
 	string zipcode =
 		"(\\d{5})([-])?(\\d{4})?\\b";

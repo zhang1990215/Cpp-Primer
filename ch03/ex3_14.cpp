@@ -1,5 +1,5 @@
 //
-//@Author  @PEZY @Yue Wang 
+//@Author  @PEZY @Yue Wang
 //@Date    Aug. 2014 Jun.2015
 //@Brief
 // read a sequence of ints from cin and
@@ -9,7 +9,7 @@
 #include <iostream>
 #include <vector>
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::vector<int> vec;
     for (int i; std::cin >> i; vec.push_back(i));

@@ -24,7 +24,7 @@
 #include "Blob.h"
 #include "blobptr.h"
 
-int main()
+int main(int argc, char const *argv[])
 {
 
     return 0;

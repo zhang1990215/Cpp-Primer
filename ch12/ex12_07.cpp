@@ -40,7 +40,7 @@ auto print(Sptr vec) -> std::ostream&
     return std::cout;
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     auto vec = populate(make_with_shared_ptr());
     print(vec) << std::endl;

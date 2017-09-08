@@ -15,7 +15,7 @@
 
 using std::vector; using std::string; using std::ifstream; using std::istringstream; using std::cout; using std::endl; using std::cerr;
 
-int main()
+int main(int argc, char const *argv[])
 {
     ifstream ifs("../data/book.txt");
     if (!ifs)

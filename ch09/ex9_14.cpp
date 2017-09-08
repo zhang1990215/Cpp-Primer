@@ -10,7 +10,7 @@
 #include <vector>
 #include <list>
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::list<const char*> l{ "Mooophy", "pezy", "Queeuqueg" };
     std::vector<std::string> v;

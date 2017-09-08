@@ -31,7 +31,7 @@ BinStrTree& BinStrTree::operator=(const BinStrTree &bst)
     return *this;
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     return 0;
 }

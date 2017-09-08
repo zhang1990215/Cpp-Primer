@@ -3,7 +3,7 @@
 
 using std::vector; using std::cout; using std::endl; using std::cin;
 
-int main()
+int main(int argc, char const *argv[])
 {
     vector<int> v;
     for (int buffer; cin >> buffer; v.push_back(buffer));

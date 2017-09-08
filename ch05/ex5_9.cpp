@@ -2,7 +2,7 @@
 
 using std::cout; using std::endl; using std::cin;
 
-int main()
+int main(int argc, char const *argv[])
 {
     unsigned aCnt = 0, eCnt = 0, iCnt = 0, oCnt = 0, uCnt = 0;
     char ch;

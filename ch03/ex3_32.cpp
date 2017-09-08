@@ -2,7 +2,7 @@
 #include <vector>
 using std::cout; using std::endl; using std::vector;
 
-int main()
+int main(int argc, char const *argv[])
 {
     // array
     int arr[10];

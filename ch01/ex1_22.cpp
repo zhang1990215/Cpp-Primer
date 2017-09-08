@@ -1,7 +1,7 @@
 #include <iostream>
 #include "include/Sales_item.h"
 
-int main()
+int main(int argc, char const *argv[])
 {
     Sales_item total;
     if (std::cin >> total)

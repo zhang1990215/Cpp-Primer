@@ -39,7 +39,7 @@ void word_transform(ifstream &map, ifstream &input)
     }
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     ifstream ifs_map("../data/word_transformation_bad.txt"), ifs_content("../data/given_to_transform.txt");
     if (ifs_map && ifs_content) word_transform(ifs_map, ifs_content);

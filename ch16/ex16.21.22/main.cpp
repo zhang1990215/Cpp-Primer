@@ -24,7 +24,7 @@
 #include "wy_queryresult.h"
 #include "wy_textquery.h"
 
-int main()
+int main(int argc, char const *argv[])
 {
 
 

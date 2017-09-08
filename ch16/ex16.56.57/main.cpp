@@ -102,7 +102,7 @@ std::ostream& errorMsg(std::ostream& os, const Args... rest)
     return print(os, debug_rep(rest)...);
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     errorMsg(std::cout, 1, 2, 3, 4, 9.0f, "sss", "alan");
     return 0;

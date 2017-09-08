@@ -13,8 +13,8 @@ auto sum(int lo, int hi)
     return sum;
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
-    cout << "sum is: " << sum(50, 100+1) <<endl;
-    return 0;
+  cout << "sum is: " << sum(50, 100+1) <<endl;
+  return 0;
 }

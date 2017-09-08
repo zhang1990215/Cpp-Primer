@@ -35,7 +35,7 @@ auto replace_with(string &s, string const& oldVal, string const& newVal)
             ++cur;
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     string s{ "To drive straight thru is a foolish, tho courageous act." };
     replace_with(s, "tho", "though");

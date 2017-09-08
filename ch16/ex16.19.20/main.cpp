@@ -40,7 +40,7 @@ std::ostream& print2(Container const& container, std::ostream &os)
 }
 
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::vector<int> v = { 1, 23, 6, 4, 5, 7, 4 };
     std::list<std::string> l = { "ss", "sszz", "saaas", "s333s", "ss2"," sss" };

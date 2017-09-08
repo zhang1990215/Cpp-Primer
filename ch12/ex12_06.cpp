@@ -37,7 +37,7 @@ auto print(Ptr vec) -> std::ostream&
     return std::cout;
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     auto vec = populate(make_dynamically());
     print(vec) << std::endl;

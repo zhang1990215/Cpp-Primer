@@ -39,7 +39,7 @@ auto print(Families const& families)
     }
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     print(make_families());
     return 0;

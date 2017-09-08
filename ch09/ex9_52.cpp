@@ -16,7 +16,7 @@
 
 using std::string; using std::cout; using std::endl; using std::stack;
 
-int main()
+int main(int argc, char const *argv[])
 {
     string expression{ "This is (pezy)." };
     bool bSeen = false;

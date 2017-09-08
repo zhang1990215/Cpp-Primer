@@ -96,7 +96,7 @@ void StrVec::resize(size_t count, const std::string &s)
     }
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     return 0;
 }

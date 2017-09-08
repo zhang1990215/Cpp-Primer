@@ -3,7 +3,7 @@
 #include <string>
 using std::vector; using std::string; using std::cout; using std::endl; using std::cin;
 
-int main()
+int main(int argc, char const *argv[])
 {
     vector<string> scores = { "F", "D", "C", "B", "A", "A++" };
 

@@ -13,7 +13,7 @@
 #include <algorithm>
 #include <iterator>
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::istream_iterator<int> in_iter(std::cin), eof;
     std::vector<int> vec;

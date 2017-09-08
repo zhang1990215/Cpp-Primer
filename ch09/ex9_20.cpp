@@ -12,7 +12,7 @@
 #include <list>
 using std::deque; using std::list; using std::cout; using std::cin; using std::endl;
 
-int main()
+int main(int argc, char const *argv[])
 {
     list<int> l{ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
     deque<int> odd, even;

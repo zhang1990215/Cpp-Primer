@@ -9,7 +9,7 @@
 #include <iostream>
 using std::cin; using std::cout; using std::endl;
 
-int main()
+int main(int argc, char const *argv[])
 {
     Sales_data total;
     if (cin >> total.bookNo >> total.units_sold >> total.revenue)

@@ -18,7 +18,7 @@ bool compare(int* const pb1, int* const pe1, int* const pb2, int* const pe2)
     return true;
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     int arr1[3] = { 0, 1, 2 };
     int arr2[3] = { 0, 2, 4 };

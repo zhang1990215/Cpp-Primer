@@ -1,6 +1,6 @@
 #include <iostream> // high level input/output operations.
 
-int main()
+int main(int argc, char const *argv[])
 {
     // by using method below only include what is needed.
     using std::cout;

@@ -15,7 +15,7 @@
 #include <string>
 #include "shared_pointer.hpp"
 
-int main()
+int main(int argc, char const *argv[])
 {
     auto foo = cp5::SharedPointer<int>{ new int(42) };
     auto bar(foo) ;

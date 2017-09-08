@@ -25,7 +25,7 @@
 //#include "Sales_data.h"
 
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::bitset<32> bv(1010101);
 

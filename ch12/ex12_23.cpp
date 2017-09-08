@@ -11,7 +11,7 @@
 #include <string>
 #include <string.h>
 
-int main()
+int main(int argc, char const *argv[])
 {
     // dynamically allocated array of char
     char *concatenate_string = new char[strlen("hello " "world") + 1]();

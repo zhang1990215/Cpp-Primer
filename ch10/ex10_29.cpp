@@ -15,7 +15,7 @@
 
 using std::string;
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::ifstream ifs("../data/book.txt");
     std::istream_iterator<string> in(ifs), eof;

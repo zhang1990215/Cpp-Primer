@@ -139,7 +139,7 @@ by a newline.
 ```cpp
 #include <iostream>
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::cout << 2 << "\115\012";
     std::cout << 2 << "\t\115\012";
@@ -187,7 +187,7 @@ double i = 3.14;
 ```cpp
 std::string global_str;
 int global_int;
-int main()
+int main(int argc, char const *argv[])
 {
     int local_int;
     std::string local_str;
@@ -226,7 +226,7 @@ definition:
 >What is the value of j in the following program?
 ```cpp
 int i = 42;
-int main()
+int main(int argc, char const *argv[])
 {
     int i = 100;
     int j = i;
@@ -248,7 +248,7 @@ Legal. Output:
 
 ```100 45```
 
-Note: Such naming is considered as bad practise. 
+Note: Such naming is considered as bad practise.
 
 ## Exercise 2.15
 >Which of the following definitions, if any, are invalid? Why?
@@ -572,7 +572,7 @@ you forget the semicolon after a class definition. Remember the message for
 future reference.
 ```cpp
 struct Foo { /* empty  */ } // Note: no semicolon
-int main()
+int main(int argc, char const *argv[])
 {
     return 0;
 }
@@ -613,7 +613,7 @@ struct Sale_data
     double revenue = 0.0;
 };
 
-int main()
+int main(int argc, char const *argv[])
 {
     Sale_data book;
     double price;
@@ -638,7 +638,7 @@ struct Sale_data
     double revenue = 0.0;
 };
 
-int main()
+int main(int argc, char const *argv[])
 {
     Sale_data book1, book2;
     double price1, price2;
@@ -679,7 +679,7 @@ struct Sale_data
     double revenue = 0.0;
 };
 
-int main()
+int main(int argc, char const *argv[])
 {
     Sale_data total;
     double totalPrice;

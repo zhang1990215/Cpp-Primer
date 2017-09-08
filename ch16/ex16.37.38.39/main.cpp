@@ -44,7 +44,7 @@ int compare(const T &v1, const T &v2)
     return 0;
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::cout << compare<std::string>("sss","aaa") << "\n";
 }

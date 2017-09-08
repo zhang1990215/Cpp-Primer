@@ -23,7 +23,7 @@ void foo(T t, Args ...args)
 }
 
 
-int main()
+int main(int argc, char const *argv[])
 {
     foo(1, 2);
     foo(1, 23, 4, 5, 6);

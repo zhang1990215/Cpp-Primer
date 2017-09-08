@@ -18,7 +18,7 @@
 #include <string>
 #include <vector>
 
-int main()
+int main(int argc, char const *argv[])
 {
     auto three_ints = std::make_tuple(10, 20, 30);
     

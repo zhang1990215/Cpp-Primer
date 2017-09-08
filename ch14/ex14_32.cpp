@@ -14,7 +14,7 @@ StrBlobPtr_pointer::operator ->() const
     return pointer;
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     StrBlob sb{ "hello", "world" };
     StrBlobPtr iter = sb.begin();

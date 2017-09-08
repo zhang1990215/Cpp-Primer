@@ -97,7 +97,7 @@ class D : public X, public C{};
 
 MI mi;
 
-int main()
+int main(int argc, char const *argv[])
 {
 *pd = new D;
 X *px = pd;
@@ -212,7 +212,7 @@ protected:
 
 using namespace std;
 
-int main()
+int main(int argc, char const *argv[])
 {
     MI mi;
     mi.print(42);
@@ -280,7 +280,7 @@ protected:
     std::vector<double> dvec={9,8,7};
 };
 
-int main()
+int main(int argc, char const *argv[])
 {
     MI mi;
     return 0;

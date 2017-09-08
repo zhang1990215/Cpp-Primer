@@ -19,7 +19,7 @@ struct PersonInfo {
     vector<string> phones;
 };
 
-int main()
+int main(int argc, char const *argv[])
 {
     string line, word;
     vector<PersonInfo> people;

@@ -18,7 +18,7 @@
 #include <unordered_set>
 #include "Sales_data.h"
 
-int main()
+int main(int argc, char const *argv[])
 {
     // test for ex16.62
     std::unordered_multiset<Sales_data> mset;

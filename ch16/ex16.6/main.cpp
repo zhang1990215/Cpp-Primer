@@ -42,7 +42,7 @@ T* end_def(T (&arr)[size])
     return arr + size;
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::string s[] = { "sssss","ss","ss","ssssszzzz" };
     std::cout << *(begin_def(s)+1) << std::endl;

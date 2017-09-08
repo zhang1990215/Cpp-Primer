@@ -7,14 +7,14 @@ using std::cout;
 using std::endl;
 using std::cerr;
 
-int main()
+int main(int argc, char const *argv[])
 {
     Sales_data data1, data2;
 
     // code to read into data1 and data2
     double price = 0;  // price per book, used to calculate total revenue
 
-    // read the first transactions: ISBN, number of books sold, price per book 
+    // read the first transactions: ISBN, number of books sold, price per book
     cin >> data1.bookNo >> data1.units_sold >> price;
     // calculate total revenue from price and units_sold
     data1.revenue = data1.units_sold * price;

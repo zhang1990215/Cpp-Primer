@@ -27,7 +27,7 @@ void f()
     compute(0);
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
 	f();
     return 0;

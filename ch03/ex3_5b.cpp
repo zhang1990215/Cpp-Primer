@@ -7,7 +7,7 @@ using std::cin;
 using std::cout;
 using std::endl;
 
-int main()
+int main(int argc, char const *argv[])
 {
     string str;
     for (string buff; cin >> buff; str += (str.empty() ? "" : " ") + buff);

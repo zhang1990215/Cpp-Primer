@@ -21,7 +21,7 @@ void f(double, double)
     cout << "f(double, double)" << endl;
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     //f(2.56, 42); // error: 'f' is ambiguous.
     f(42);

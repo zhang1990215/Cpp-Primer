@@ -1,7 +1,7 @@
 #include "ex12_02.h"
 #include <iostream>
 
-int main()
+int main(int argc, char const *argv[])
 {
     const StrBlob csb{ "hello", "world", "pezy" };
     StrBlob sb{ "hello", "world", "Mooophy" };

@@ -8,7 +8,7 @@
 #include <string>
 #include <vector>
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::vector<std::string> v;
     for (std::string buffer; std::cin >> buffer; v.push_back(buffer))

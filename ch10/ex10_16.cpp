@@ -41,7 +41,7 @@ void biggies(std::vector<std::string> &vs, std::size_t sz)
     }); 
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     // ex10.16
     std::vector<std::string> v

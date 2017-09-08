@@ -29,7 +29,7 @@ unsigned random_gen();
 unsigned random_gen(unsigned seed);
 // with seed and range spicified
 unsigned random_gen(unsigned seed, unsigned min, unsigned max);
-int main()
+int main(int argc, char const *argv[])
 {
     std::string temp;
     while(std::cin >> temp)

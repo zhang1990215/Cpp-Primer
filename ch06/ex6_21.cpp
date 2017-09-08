@@ -14,7 +14,7 @@ int larger_one(const int i, const int *p)
     return (i > *p) ? i : *p;
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     int i = 6;
     cout << larger_one(7, &i);

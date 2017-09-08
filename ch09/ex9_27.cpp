@@ -22,7 +22,7 @@ auto remove_odds(forward_list<int>& flist)
     flist.remove_if(is_odd);
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     forward_list<int> data = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
     remove_odds(data);

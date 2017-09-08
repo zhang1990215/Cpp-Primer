@@ -3,7 +3,7 @@
 #include <cstring>
 using std::cout; using std::endl; using std::string;
 
-int main()
+int main(int argc, char const *argv[])
 {
     // use string.
     string s1("Mooophy"), s2("Pezy");

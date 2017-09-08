@@ -42,7 +42,7 @@ void wordTransformation()
         }
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     //wordCounting();
     wordTransformation();

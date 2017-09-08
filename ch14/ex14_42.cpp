@@ -4,7 +4,7 @@
 #include <iostream>
 #include <functional>
 
-int main()
+int main(int argc, char const *argv[])
 {
     using std::placeholders::_1;
 

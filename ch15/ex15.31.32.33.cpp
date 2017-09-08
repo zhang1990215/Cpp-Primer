@@ -72,7 +72,7 @@ private:
     std::shared_ptr<std::vector<std::string>> text;
 
 };
-int main()
+int main(int argc, char const *argv[])
 {
     std::vector<std::string> v = { "alan","alan","alan","alan","alan" };
 

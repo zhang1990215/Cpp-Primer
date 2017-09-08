@@ -15,7 +15,7 @@
 #include <list>
 #include <iterator>
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::vector<int> vec{ 1, 1, 3, 3, 5, 5, 7, 7, 9 };
     std::list<int> lst;

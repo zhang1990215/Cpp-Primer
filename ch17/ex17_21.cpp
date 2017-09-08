@@ -50,7 +50,7 @@ void format_record(ostream& os, const vector<PersonInfo>& people);
 // fake function that makes the program compile
 string format(const string &num) { return num; }
 
-int main()
+int main(int argc, char const *argv[])
 {
     vector<PersonInfo> people;
 

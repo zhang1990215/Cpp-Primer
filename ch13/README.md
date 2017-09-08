@@ -30,7 +30,7 @@ long count() {
     return data.use_count(); // and wptr.use_count();
 }
 
-// test codes in main()
+// test codes in main(int argc, char const *argv[])
 StrBlob str({ "hello", "world" });
 std::cout << "before: " << str.count() << std::endl; // 1
 StrBlob str_cp(str);

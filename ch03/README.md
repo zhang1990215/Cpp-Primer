@@ -17,7 +17,7 @@ input operator and in the `getline` function.
 exercise as type char? Predict the results and then change your program
 to use a char to see if you were right.
 
-The point here is using reference to mutate a string. If changed to something like below, `c` would become a `char` rather than `char&`. In such case, `c` is a copy of each character of string `str`, thus the assignment `c = 'X'` won't mutate `str`. As a result, after this for range statement, nothing changes. 
+The point here is using reference to mutate a string. If changed to something like below, `c` would become a `char` rather than `char&`. In such case, `c` is a copy of each character of string `str`, thus the assignment `c = 'X'` won't mutate `str`. As a result, after this for range statement, nothing changes.
 ```cpp
 string str("a simple string");
 for (char c : str) c = 'X';
@@ -31,7 +31,7 @@ string s;
 cout << s[0] << endl;
 ```
 
-This code was dereferencing and printing the first item stored in `s`. Since `s` is empty, such operation is invalid, a.k.a. **undefined behavior**. 
+This code was dereferencing and printing the first item stored in `s`. Since `s` is empty, such operation is invalid, a.k.a. **undefined behavior**.
 
 
 ## [Exercise 3.10](ex3_10.cpp)
@@ -47,7 +47,7 @@ Depending on the code within for loop body. For example:
     cout << c;  // legal.
     c = 'X';    // illegal.
 
-The type of `c` is `const char&`. 
+The type of `c` is `const char&`.
 
 ## Exercise 3.12
 >Which, if any, of the following vector definitions are in error?
@@ -88,7 +88,7 @@ vector<string> v7{ 10, "hi" };  // size:10, value:"hi"
 >In the binary search program on page 112,
 why did we write `mid=beg+(end-beg)/2;` instead of `mid=(beg+end) /2;`?
 
-`(beg + end)` is meaningless. 
+`(beg + end)` is meaningless.
 
 ## Exercise 3.27
 >Assuming txt_size is a function that takes no arguments
@@ -111,7 +111,7 @@ char st[11] = "fundamental";  // illegal, the string's size is 12.
 string sa[10];      //all elements are empty strings
 int ia[10];         //all elements are 0
 
-int main() 
+int main(int argc, char const *argv[])
 {
     string sa2[10]; //all elements are empty strings
     int ia2[10];    //all elements are undefined
@@ -153,7 +153,7 @@ Are there values of p1 or p2 that make this code illegal?
 ```cpp
 p1 += p2 - p1;
 ```
- * It moves `p1` with the offset `p2 - p1`. After this statement, `p1` and `p2` points to the same address. 
+ * It moves `p1` with the offset `p2 - p1`. After this statement, `p1` and `p2` points to the same address.
  * Any legal value p1, p2 make this code legal.
 
 ## [Exercise 3.35](ex3_35.cpp)
@@ -169,7 +169,7 @@ while (*cp) {
 }
 ```
 
-This code will print all characters in `ca`, afterwards as no `\0` appended, **UB** would happen. For most cases, the while loop here won't be terminated as expected and many rubbish would be printed out. 
+This code will print all characters in `ca`, afterwards as no `\0` appended, **UB** would happen. For most cases, the while loop here won't be terminated as expected and many rubbish would be printed out.
 
 
 ## Exercise 3.38

@@ -27,7 +27,7 @@ void input_reverse_output_string(int n)
     alloc.deallocate(p, n);
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     input_reverse_output_string(5);
 }

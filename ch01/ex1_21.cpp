@@ -6,7 +6,7 @@ using std::cout;
 using std::endl;
 using std::cerr;
 
-int main()
+int main(int argc, char const *argv[])
 {
     Sales_item item1, item2;
     cin >> item1 >> item2;

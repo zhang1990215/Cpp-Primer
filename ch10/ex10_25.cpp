@@ -34,7 +34,7 @@ void biggies(vector<string> &words, vector<string>::size_type sz)
     for_each(words.begin(), iter, [](const string &s){ std::cout << s << " "; });
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::vector<std::string> v{
         "the", "quick", "red", "fox", "jumps", "over", "the", "slow", "red", "turtle"

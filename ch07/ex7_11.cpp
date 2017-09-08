@@ -7,7 +7,7 @@
 
 #include "ex7_11.h"
 
-int main()
+int main(int argc, char const *argv[])
 {
     Sales_data item1;
     print(std::cout, item1) << std::endl;

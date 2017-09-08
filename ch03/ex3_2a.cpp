@@ -8,7 +8,7 @@ using std::cout;
 using std::endl;
 using std::getline;
 
-int main()
+int main(int argc, char const *argv[])
 {
     for (string str; getline(cin, str); cout << str << endl);
     return 0;

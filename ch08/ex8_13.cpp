@@ -33,7 +33,7 @@ string format(const string& str)
     return str.substr(0,3) + "-" + str.substr(3,3) + "-" + str.substr(6);
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     ifstream ifs("../data/phonenumbers.txt");
     if (!ifs)

@@ -21,7 +21,7 @@ auto add_pre_and_suffix(std::string name, std::string const& pre, std::string co
     return name;
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::string name("alan");
     std::cout << add_pre_and_suffix(name, "Mr.", ",Jr.");

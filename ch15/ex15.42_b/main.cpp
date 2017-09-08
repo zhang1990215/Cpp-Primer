@@ -18,7 +18,7 @@ using std::vector;
 #include "orquery.h"
 #include "notquery.h"
 
-int main()
+int main(int argc, char const *argv[])
 {
     ifstream fin("test.txt");
 	TextQuery text(fin);

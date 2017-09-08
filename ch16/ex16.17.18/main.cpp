@@ -40,7 +40,7 @@ typedef char Ctype;
 //the template declatation below hides this typedef
 template <typename Ctype> Ctype f5(Ctype a);
 
-int main()
+int main(int argc, char const *argv[])
 {
     return 0;
 }

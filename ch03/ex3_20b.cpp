@@ -6,7 +6,7 @@ using std::cout;
 using std::endl;
 using std::cin;
 
-int main()
+int main(int argc, char const *argv[])
 {
     vector<int> ivec;
     for (int i; cin >> i; ivec.push_back(i));

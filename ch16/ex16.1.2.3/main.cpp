@@ -41,7 +41,7 @@ int compare(const T& lhs, const T& rhs)
     return 0;
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     // Test compare function
     cout << compare(1, 0) << endl;

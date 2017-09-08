@@ -22,7 +22,7 @@ auto sum(T lhs, T rhs) -> decltype( lhs + rhs)
     return lhs + rhs;
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     auto s= sum(123456789123456789123456789123456789123456789, 123456789123456789123456789123456789123456789) ;
     ;

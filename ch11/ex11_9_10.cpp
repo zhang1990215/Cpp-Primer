@@ -17,7 +17,7 @@
 #include <list>
 #include <vector>
 
-int main()
+int main(int argc, char const *argv[])
 {
     // ex 11.9
     std::map<std::string, std::list<std::size_t>> m;

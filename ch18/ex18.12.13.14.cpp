@@ -29,7 +29,7 @@
 
 //mathLib::MatrixLib::matrix mathLib::MatrixLib::operator* (const matrix&, const matrix&);
 
-int main()
+int main(int argc, char const *argv[])
 {
     return 0;
 }

@@ -19,7 +19,7 @@
 
 using std::string; using std::cout; using std::endl; using std::ifstream;
 
-int main()
+int main(int argc, char const *argv[])
 {
     ifstream ifs("../data/letter.txt");
     if (!ifs) return -1;

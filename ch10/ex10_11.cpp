@@ -38,7 +38,7 @@ void elimdups(std::vector<std::string> &vs)
 }
 
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::vector<std::string> v{
         "1234", "1234", "1234", "Hi", "alan", "wang"

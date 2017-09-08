@@ -1,5 +1,5 @@
 //
-//@Author  @PEZY @Yue Wang 
+//@Author  @PEZY @Yue Wang
 //@Date    Aug. 2014 Jun.2015
 //@Brief
 // Read a sequence of words from cin and store the values a vector.
@@ -17,7 +17,7 @@ using std::endl;
 using std::vector;
 using std::string;
 
-int main()
+int main(int argc, char const *argv[])
 {
     vector<string> vec;
     for (string word; cin >> word; vec.push_back(word));

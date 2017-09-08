@@ -18,7 +18,7 @@ istream& func(istream &is)
     return is;
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     istream& is = func(std::cin);
     std::cout << is.rdstate() << std::endl;

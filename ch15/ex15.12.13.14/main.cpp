@@ -62,7 +62,7 @@ private:
 
 void print_debug(const Quote& q);
 double print_total (std::ostream& os, const Quote& item, size_t n);
-int main()
+int main(int argc, char const *argv[])
 {
     // ex15.14
     base bobj;

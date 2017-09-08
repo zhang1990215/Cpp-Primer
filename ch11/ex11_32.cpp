@@ -13,7 +13,7 @@
 
 using std::string;
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::multimap<string, string> authors{
         { "alan", "DMA" },

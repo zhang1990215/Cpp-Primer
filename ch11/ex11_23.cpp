@@ -16,7 +16,7 @@ using std::multimap;
 using std::cin;
 using std::endl;
 
-int main()
+int main(int argc, char const *argv[])
 {
     multimap<string, string> families;
     for (string lname, cname; cin >> cname >> lname; families.emplace(lname, cname));

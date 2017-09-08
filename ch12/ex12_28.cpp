@@ -25,7 +25,7 @@ using std::shared_ptr;
 #include <set>
 #include <algorithm>
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::ifstream file("../data/letter.txt");
     vector<string> input;

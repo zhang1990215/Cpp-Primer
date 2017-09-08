@@ -60,7 +60,7 @@ void biggies( vector<string> &words, vector<string>::size_type sz ) {
     cout << endl;
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     vector<string> vec{ "fox", "jumps", "over", "quick", "red", "red", "slow", "the", "turtle" };
     biggies(vec, 4);

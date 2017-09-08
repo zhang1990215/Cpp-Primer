@@ -12,7 +12,7 @@
 
 using std::vector; using std::cout; using std::endl; using std::fill_n;
 
-int main()
+int main(int argc, char const *argv[])
 {
     vector<int> vec{ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
     fill_n(vec.begin(), vec.size(), 0);

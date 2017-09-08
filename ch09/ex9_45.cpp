@@ -24,7 +24,7 @@ auto add_pre_and_suffix(string name, string const& pre, string const& su)
     return name.append(su);
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     string name("Wang");
     cout << add_pre_and_suffix(name, "Mr.", ", Jr.") << endl;

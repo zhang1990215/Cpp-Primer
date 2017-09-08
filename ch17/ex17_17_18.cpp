@@ -29,7 +29,7 @@ using std::string;
 using std::regex;
 using std::sregex_iterator;
 
-int main()
+int main(int argc, char const *argv[])
 {
 	string s;
 	cout << "Please input a sequence of words:" << endl;

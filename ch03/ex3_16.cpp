@@ -1,9 +1,9 @@
 //
 //@Author  PEZY
 //@Date    Aug. 2014
-//@Brief 
+//@Brief
 // print the size and contents of the vectors from exercise 3.13.
-// Check whether your answers to that exercise were correct. 
+// Check whether your answers to that exercise were correct.
 // If not, restudy § 3.3.1 (p. 97) until you understand why you were wrong.
 //
 
@@ -16,7 +16,7 @@ using std::string;
 using std::cout;
 using std::endl;
 
-int main()
+int main(int argc, char const *argv[])
 {
     vector<int> v1;
     cout << "{\n \"v1\":{\"size\":\"" << v1.size() << "\",\"value\":[";

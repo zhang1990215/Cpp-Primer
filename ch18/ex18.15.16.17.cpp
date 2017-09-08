@@ -205,7 +205,7 @@ namespace Test3
 	}
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
 	Test0::manip();
 	cout << endl;

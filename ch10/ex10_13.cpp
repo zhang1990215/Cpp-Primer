@@ -21,7 +21,7 @@ bool predicate(const std::string &s)
     return s.size() >= 5; 
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     auto v = std::vector<std::string>{ "a", "as", "aasss", "aaaaassaa", "aaaaaabba", "aaa" };
     auto pivot = std::partition(v.begin(), v.end(), predicate);

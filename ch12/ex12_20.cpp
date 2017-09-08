@@ -11,7 +11,7 @@
 #include <fstream>
 #include <iostream>
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::ifstream ifs("../data/book.txt");
     StrBlob blob;

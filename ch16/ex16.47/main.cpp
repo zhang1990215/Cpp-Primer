@@ -47,7 +47,7 @@ void flip(F f, T1&& t1, T2&& t2)
     f(std::forward<T2>(t2), std::forward<T1>(t1));
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     // test for lvalue reference
     /*

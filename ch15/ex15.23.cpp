@@ -40,7 +40,7 @@ public:
     void f2() override { std::cout << "D2::f2()\n"; }
 };
 
-int main()
+int main(int argc, char const *argv[])
 {
     Base bobj;
     D1 d1obj;

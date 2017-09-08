@@ -12,7 +12,7 @@ void print(Iter first, Iter last)
     }
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     vector<int> vec{ 1, 2, 3, 4, 5, 6, 7, 8, 9 };
     print(vec.cbegin(), vec.cend());

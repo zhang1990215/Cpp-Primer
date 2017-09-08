@@ -17,7 +17,7 @@
 #include <algorithm>
 #include <numeric>
 
-int main()
+int main(int argc, char const *argv[])
 {
     // Exercise 10.3
     std::vector<int> v = { 1, 2, 3, 4 };

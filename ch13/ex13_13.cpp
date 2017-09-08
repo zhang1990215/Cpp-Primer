@@ -35,7 +35,7 @@ void f(const X &rx, X x)
     vec.push_back(x);
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     X *px = new X;
     f(*px, *px);

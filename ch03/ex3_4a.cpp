@@ -7,7 +7,7 @@ using std::cin;
 using std::cout;
 using std::endl;
 
-int main()
+int main(int argc, char const *argv[])
 {
     string str1, str2;
     while (cin >> str1 >> str2)

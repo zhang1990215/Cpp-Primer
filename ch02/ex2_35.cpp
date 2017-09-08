@@ -1,7 +1,7 @@
 #include <iostream>
 #include <typeinfo>
 
-int main()
+int main(int argc, char const *argv[])
 {
     const int i = 42;
     auto j = i;

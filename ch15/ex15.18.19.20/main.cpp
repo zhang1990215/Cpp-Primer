@@ -96,7 +96,7 @@ struct Derived_from_Protected   : public Prot_Derv
     void memfcn(Base &b) { b = *this; }
 };
 
-int main()
+int main(int argc, char const *argv[])
 {
     Pub_Derv d1;
     Base *p = &d1;

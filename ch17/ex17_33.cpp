@@ -34,7 +34,7 @@ using std::find_if;
 using std::pair;
 
 
-int main() {
+int main(int argc, char const *argv[]) {
 	typedef pair<string, string> ps;
 	ifstream i("d.txt");
 	vector<ps> dict;

@@ -27,7 +27,7 @@ auto check_size(string const& str, size_t sz)
     return str.size() < sz;
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     vector<int> vec{ 0, 1, 2, 3, 4, 5, 6, 7 };
     string str("123456");

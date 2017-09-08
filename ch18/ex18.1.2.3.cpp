@@ -77,7 +77,7 @@ void exercise(int *b, int *e)
     // exception occurs here
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     // for ex18.1
     /*

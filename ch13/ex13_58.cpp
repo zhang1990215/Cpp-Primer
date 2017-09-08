@@ -32,7 +32,7 @@ Foo Foo::sorted() const & {
     return Foo(*this).sorted(); // Exercise 13.57
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     Foo().sorted(); // call "&&"
     Foo f;

@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main()
+int main(int argc, char const *argv[])
 {
     int i = 0, &r = i;
     auto a = r;   // a is an int (r is an alias for i, which has type int)

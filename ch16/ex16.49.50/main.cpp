@@ -39,7 +39,7 @@ template <typename T> void g(T*)
 
 
 
-int main()
+int main(int argc, char const *argv[])
 {
     int i = 42, *p = &i;
     const int ci = 0, *p2 = &ci;

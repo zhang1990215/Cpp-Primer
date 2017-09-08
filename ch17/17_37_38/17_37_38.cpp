@@ -44,7 +44,7 @@ using namespace std;
 //}
 
 
-int main()
+int main(int argc, char const *argv[])
 {
 	std::cout << "Standard Output!\n";
 	std::cerr << "Standard Error!\n";

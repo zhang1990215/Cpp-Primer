@@ -17,7 +17,7 @@ void elimDups(list<string> &words)
     words.unique();
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     list<string> l = { "aa", "aa", "aa", "aa", "aasss", "aa" };
     elimDups(l);

@@ -19,7 +19,7 @@
 #include <bitset>
 #include <vector>
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::vector<int> v = { 1, 2, 3, 5, 8, 13, 21 };
     std::bitset<32> bset;

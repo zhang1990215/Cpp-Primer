@@ -40,7 +40,7 @@ private:
     std::size_t _upper;
 };
 
-int main()
+int main(int argc, char const *argv[])
 {
     //create predicates with various upper limits.
     std::size_t lower = 1;

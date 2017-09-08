@@ -14,7 +14,7 @@
 
 using std::vector; using std::cout; using std::endl;
 
-int main()
+int main(int argc, char const *argv[])
 {
     vector<int> v{ 1, 2, 3, 4, 5, 6, 7, 8, 9 };
     auto begin = v.begin();

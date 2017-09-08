@@ -51,7 +51,7 @@ auto print(Map const& m)
         cout << kv.first << " : " << kv.second << "\n";
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     cout << "[ex11.3] Enter a few words please:\n";
     print(count());

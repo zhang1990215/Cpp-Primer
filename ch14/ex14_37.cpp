@@ -11,7 +11,7 @@ public:
     }
 };
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::vector<int> vec = { 3, 2, 1, 4, 3, 7, 8, 6 };
     std::replace_if(vec.begin(), vec.end(), IsEqual(3), 5);

@@ -43,7 +43,7 @@ private:
     //      ^^^^^^^^ -- template is not a type, the type must be provided
 };
 
-int main()
+int main(int argc, char const *argv[])
 {
     return 0;
 }

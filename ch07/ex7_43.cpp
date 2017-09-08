@@ -19,7 +19,7 @@ private:
     NoDefault def;
 };
 
-int main()
+int main(int argc, char const *argv[])
 {
     C c;
     

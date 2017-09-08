@@ -19,7 +19,7 @@
 #include <Blob.h>
 
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::vector<int> v = { 1, 2, 3, 4, 5 };
     Blob<int> b(v.begin(), v.end());

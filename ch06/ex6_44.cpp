@@ -11,7 +11,7 @@ inline bool is_shorter(const string &lft, const string &rht) // defining in the 
     return lft.size() < rht.size();
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
     cout << is_shorter("pezy", "mooophy") << endl;
     return 0;

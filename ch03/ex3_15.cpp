@@ -1,5 +1,5 @@
 //
-//@Author  @PEZY @Yue Wang 
+//@Author  @PEZY @Yue Wang
 //@Date    Aug. 2014, Jun 2015
 //@Brief
 // read a sequence of strings from cin and
@@ -10,7 +10,7 @@
 #include <vector>
 #include <string>
 
-int main()
+int main(int argc, char const *argv[])
 {
     std::vector<std::string> vec;
     for (std::string buffer; std::cin >> buffer; vec.push_back(buffer));

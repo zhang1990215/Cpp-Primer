@@ -21,7 +21,7 @@
 #include <list>
 
 
-int main()
+int main(int argc, char const *argv[])
 {
     // 10.1
     std::vector<int> v = { 1, 2, 3, 4, 5, 6, 6, 6, 2 };

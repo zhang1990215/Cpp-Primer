@@ -7,7 +7,7 @@
 #include <math.h>
 using namespace std;
 
-int main()
+int main(int argc, char const *argv[])
 {
 	cout <<"default format: " << 100 * sqrt(2.0) << '\n'
 		<< "scientific: " << scientific << 100 * sqrt(2.0) << '\n'
@@ -24,7 +24,7 @@ int main()
 #include <math.h>
 using namespace std;
 
-int main()
+int main(int argc, char const *argv[])
 {
 	cout <<left<<setw(15) << "default format:" <<setw(25)<< right<< 100 * sqrt(2.0) << '\n'
 	<< left << setw(15) << "scientific:" << scientific << setw(25) << right << 100 * sqrt(2.0) << '\n'
